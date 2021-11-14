@@ -1,0 +1,22 @@
+{
+  "name": "servlessgraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "cpx src/**/* functions/bundle",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "apollo-server-lambda": "^3.5.0"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "nodemon": "^2.0.15"
+  }
+}
