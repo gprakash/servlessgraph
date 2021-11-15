@@ -1,6 +1,5 @@
 [[build]]
   command = "npm run bundle"
-  functions = "functions"
 
 [[redirects]]
   from = "/*"
